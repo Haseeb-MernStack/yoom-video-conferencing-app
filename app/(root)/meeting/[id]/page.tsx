@@ -1,11 +1,7 @@
-import React from 'react'
+// app/meeting/[id]/page.tsx
+import MeetingClient from "@/components/MeetingClient";
 
-const Meeting = ({params}: {params: {id : string} }) => {
-    return (
-        <div>
-            Meeting Room: #{params.id}
-        </div>
-    )
+export default async function Page({ params }: { params: { id: string } }) {
+    const { id } = params; // ✅ Unwrap Promise
+    return <MeetingClient id={id} />;
 }
-
-export default Meeting

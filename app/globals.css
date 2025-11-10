@@ -9,6 +9,9 @@
   --color-dark-2: #161925;
   --color-blue-1: #0E78F9;
   --color-sky-1: #C9DDFF;
+  --color-orange-1: #FF742E;
+  --color-purple-1: #830EF9;
+  --color-yellow-1: #830EF9; /* change krna ha abhi iss ko color code */
 }
 
 /* ======== stream css overrides ======== */
